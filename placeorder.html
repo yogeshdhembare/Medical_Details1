@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Place Order - MedPlus</title>
+</head>
+<body>
+
+    <div align="right">
+        <a href="welcomepg.html">Back</a>
+    </div>
+
+    <h2 align="center">Place Your Order</h2><hr>
+
+    <form  method="post">
+        <table border="0" align="center" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Select</th>
+                <th>Image</th>
+                <th>Medicine Name</th>
+                <th>Cost (₹)</th>
+                <th>Quantity</th>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="item" value="Paracetamol"></td>
+                <td><img src="paracetamol.jpeg" height="50" width="80" alt="Paracetamol"></td>
+                <td>Paracetamol</td>
+                <td>20</td>
+                <td><input type="number" name="qty_paracetamol" min="1" max="10"></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="item" value="Ibuprofen"></td>
+                <td><img src="ibuprofen.jpeg" height="50" width="80" alt="Ibuprofen"></td>
+                <td>Ibuprofen</td>
+                <td>35</td>
+                <td><input type="number" name="qty_ibuprofen" min="1" max="10"></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="item" value="Amoxicillin"></td>
+                <td><img src="amoxicilin.jpeg" height="50" width="80" alt="Amoxicillin"></td>
+                <td>Amoxicillin</td>
+                <td>50</td>
+                <td><input type="number" name="qty_amoxicillin" min="1" max="10"></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="item" value="Cetirizine"></td>
+                <td><img src="cetrizine.jpg" height="50" width="80" alt="Cetirizine"></td>
+                <td>Cetirizine</td>
+                <td>15</td>
+                <td><input type="number" name="qty_cetirizine" min="1" max="10"></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" name="item" value="Omeprazole"></td>
+                <td><img src="omeprazole.jpeg" height="50" width="80" alt="Omeprazole"></td>
+                <td>Omeprazole</td>
+                <td>40</td>
+                <td><input type="number" name="qty_omeprazole" min="1" max="10"></td>
+            </tr>
+        </table>
+
+        <br>
+        <div align="center">
+            <input type="submit" value="Place Order">
+            <input type="reset" value="Clear Selection">
+        </div>
+    </form>
+
+</body>
+</html>
